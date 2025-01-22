@@ -1,0 +1,220 @@
+.after-generate-mage-container {
+  background-color: #05020e;
+  min-height: 100vh;
+}
+.after-generate-mage-container-inner {
+  padding: 35px 35px 0px 35px;
+}
+.a-g-i-p-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.a-g-i-p-header > p {
+  font-size: 25px;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: "Readex Pro";
+  margin-right: 15px;
+}
+.a-g-i-p-header > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.a-g-i-p-header > div > p {
+  font-family: "Readex Pro";
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-right: 15px;
+}
+.a-g-i-p-header-btn {
+  background-image: linear-gradient(to right, #ff7357, #ff2957) !important;
+  height: 50px !important;
+  border-radius: 100px !important;
+  padding: 1px !important;
+  width: 142px !important;
+  min-width: 142px !important;
+}
+.a-g-i-p-header-btn > div {
+  background-color: #05020e;
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-family: "Readex Pro";
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.a-g-i-p-card {
+  border: 1.1px solid #f2f2f280;
+  border-radius: 13px;
+  padding: 10px;
+}
+.a-g-i-p-card > img {
+  width: 100%;
+  border-radius: 13px;
+}
+.a-g-i-p-card > div {
+  margin: 15px 5px 0px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.a-g-i-p-card-check-btn {
+  padding: 0px !important;
+  background-color: transparent !important;
+}
+.a-g-i-p-card-check-btn > div {
+  width: 18px;
+  height: 18px;
+  border-radius: 3px;
+  align-items: center;
+  justify-content: center;
+ border: 1px solid;
+}
+.a-g-i-p-card-check-btn > p {
+  color: #ffffff;
+  font-size: 19.75px;
+  font-weight: 700;
+  text-transform: capitalize !important;
+  margin-left: 10px;
+}
+.a-g-i-p-card-nft-btn {
+  background-image: linear-gradient(to right, #ff7357, #ff2957) !important;
+  padding: 0px !important;
+  height: 40px !important;
+  width: 105px !important;
+  min-width: 105px !important;
+  border-radius: 100px !important;
+  color: #fefefe !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  text-transform: capitalize !important;
+}
+.a-g-i-p-card > p {
+  color: #ffffff80;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 20px 5px;
+}
+@media only screen and (max-width: 899px) {
+  .after-generate-mage-container-inner {
+    padding: 15px 15px 0px 15px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .a-g-i-p-header > p {
+    font-size: 16px;
+  }
+  .a-g-i-p-header > div > p {
+    font-size: 12px;
+  }
+  .a-g-i-p-header-btn {
+    height: 35px !important;
+    width: 100px !important;
+    min-width: 100px !important;
+  }
+  .a-g-i-p-header-btn > div {
+    font-size: 12px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.generate-image-buy-sell-carousel-heaading {
+  margin-bottom: 20px;
+}
+
+
+.generate-image-buy-sell-carousel-heaading p{
+  font-size: 25px;
+    font-weight: 600;
+    color: #ffffff;
+    font-family: "Readex Pro";
+}
+
+.my-swiper {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.carousel-slide {
+  width: max-content!important; /* Fixed width for each card */
+}
+
+.swiper-slide {
+  margin-right: 0px !important;
+}
+
+
+
+.generate-image-buy-sell-carousel {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 35px;
+}
+
+.generate-image-buy-sell-carousel-row {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.generate-image-buy-sell-carousel-img-card {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 15px;
+  border-radius: 20px;
+  /* width: 10%; */
+  width: 75%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.generate-image-buy-sell-carousel-img-card img {
+  width: 100%;
+  height: auto;
+}
+
+.generate-image-buy-sell-carousel-img-card-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6px;
+}
+
+.generate-image-buy-sell-carousel-img-card-row h4 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  color: white;
+  text-decoration: none;
+}
+
+
+.generate-image-buy-sell-carousel-img-card-row p {
+  font-size: 14px;
+  color: rgba(235, 235, 245, 0.6);
+  text-decoration: none;
+}

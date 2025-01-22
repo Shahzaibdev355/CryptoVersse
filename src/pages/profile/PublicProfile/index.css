@@ -1,0 +1,507 @@
+.profile-header {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: flex;
+  }
+  .profile-header > div {
+    background-image: linear-gradient(to right, #ff7357, #ff2957) !important;
+    height: 84px;
+    border-radius: 100px;
+    padding: 1px;
+  }
+  .profile-header > div > div {
+    background-color: #05020e;
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .page-type-selected-btn {
+    background-image: linear-gradient(to right, #ff7357, #ff2957) !important;
+    height: 60px !important;
+    border-radius: 100px !important;
+    padding: 0px !important;
+    color: #fefefe;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    text-transform: capitalize !important;
+    background-color: transparent !important;
+    padding: 0px 30px !important;
+    margin: 0px 10px !important;
+  }
+  .page-type-btn {
+    background-color: #05020e !important;
+    height: 60px !important;
+    border-radius: 100px !important;
+    padding: 0px !important;
+    color: #fefefe;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    text-transform: capitalize !important;
+    padding: 0px 30px !important;
+    margin: 0px 10px !important;
+  }
+  .profile-user-section-main {
+    border-bottom-width: 0.5px;
+    border-bottom-style: solid;
+    border-bottom-color: #ffffff33;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .profile-user-section-main > p {
+    background: -webkit-linear-gradient(#ff2957, #ff7357);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Readex Pro";
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+  .profile-user-section-icon {
+    height: 70px;
+    height: 70px;
+  }
+  .profile-user-section-copy {
+    cursor: pointer;
+  }
+  .profile-type-list-main {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .profile-type-list-main > div {
+    background-image: linear-gradient(to right, #ff7357, #ff2957) !important;
+    height: 84px;
+    border-radius: 100px;
+    padding: 1px;
+  }
+  .profile-type-list-main > div > div {
+    background-color: #05020e;
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .page-type--list-selected-btn {
+    background-image: linear-gradient(to right, #ff7357, #ff2957) !important;
+    height: 60px !important;
+    border-radius: 100px !important;
+    padding: 0px !important;
+    color: #fefefe;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    text-transform: capitalize !important;
+    background-color: transparent !important;
+    padding: 0px 30px !important;
+    margin: 0px 10px !important;
+  }
+  .page-type-list-btn {
+    background-color: #05020e !important;
+    height: 60px !important;
+    border-radius: 100px !important;
+    padding: 0px !important;
+    color: #fefefe;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    text-transform: capitalize !important;
+    padding: 0px 30px !important;
+    margin: 0px 10px !important;
+  }
+  .profile-total-item-counter {
+    color: #ffffff;
+    font-family: "Readex Pro";
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    margin-top: 10px;
+  }
+  .profile-card {
+    border: 1.1px solid #f2f2f280;
+    border-radius: 13px;
+    padding: 10px;
+  }
+  .profile-card-img {
+    border-radius: 13px;
+    position: relative;
+  }
+  .profile-card-img > img {
+    width: 100%;
+  }
+  .profile-card-fav-btn {
+    background-image: linear-gradient(to right, #ff7357, #ff2957) !important;
+    width: 44px !important;
+    height: 44px !important;
+    border-radius: 100px !important;
+    position: absolute !important;
+    top: 10px !important;
+    right: 10px !important;
+    padding: 0px !important;
+    min-height: 44px !important;
+    min-width: 44px !important;
+    max-width: 44px !important;
+    max-height: 44px !important;
+  }
+  .profile-card-inner {
+    padding: 5px;
+  }
+  .profile-card-title {
+    color: #ffffff;
+    font-size: 19.75px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+  .profile-card-text {
+    color: #ffffff80;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+  }
+  .profile-card-footer {
+    border-top-width: 0.5px;
+    border-top-style: solid;
+    border-top-color: #ffffff1a;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+  }
+  .profile-card-footer > div {
+    display: flex;
+    align-items: center;
+  }
+  .profile-card-footer > div > p {
+    color: #fefefe;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 5px;
+    margin-right: 15px;
+  }
+  .profile-not-mined-btn {
+    background-image: linear-gradient(to right, #ff7357, #ff2957) !important;
+    width: 119px !important;
+    min-width: 119px !important;
+    height: 32px !important;
+    border-radius: 100px !important;
+    padding: 1px !important;
+  }
+  .profile-not-mined-btn > div {
+    background-color: #05020e !important;
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fefefeb0;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize !important;
+  }
+  
+  .profile-line {
+    background-color: #ffffff33;
+    height: 0.5px;
+    margin-bottom: 20px;
+  }
+  .profile-form-heading {
+    color: #ffffff;
+    font-family: "Readex Pro";
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 10px;
+  }
+  .profile-form-box {
+    background-image: linear-gradient(to right, #ff7357, #ff2957) !important;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 1px;
+  }
+  .profile-form-box-inner-1 {
+    background-color: #05020e;
+    border-radius: 8px;
+    padding: 15px;
+  }
+  .profile-form-box-inner-2 {
+    background-color: #05020e;
+    border-radius: 8px;
+  }
+  .profile-show-profile-main {
+    display: flex;
+    align-items: center;
+  }
+  .profile-show-profile-box {
+    background-color: #3c3c3c;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  .user-name {
+    color: #fefefe;
+    font-family: "Readex Pro";
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .user-email {
+    color: #a2a1a7;
+    font-family: "Readex Pro";
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .attachments-button {
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #ff7357, #ff2957) !important;
+    height: 35px;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 12px;
+    width: 100px;
+    font-weight: 400;
+    margin-top: 20px;
+    font-family: "Lexend";
+  }
+  .remove-image-btn {
+    width: 100px !important;
+    min-width: 100px !important;
+    padding: 0px !important;
+    font-family: "Readex Pro" !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    text-transform: capitalize !important;
+    background: -webkit-linear-gradient(#ff2957, #ff7357) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    margin-top: 10px !important;
+  }
+  .profile-form-main-title {
+    color: #ffffff;
+    font-family: "Readex Pro";
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  .profile-input-title {
+    color: #fefefe;
+    font-family: "Readex Pro";
+    font-size: 16px;
+    font-weight: 300;
+    /* margin-top: 15px; */
+  }
+  .profile-input {
+    border: 1px solid #a2a1a833;
+    height: 56px;
+    border-radius: 10px;
+    padding: 0px 10px;
+    margin: 15px 0px;
+  }
+  .profile-input > input {
+    color: #a2a1a8cc;
+    font-family: "Readex Pro";
+    font-size: 16px;
+    font-weight: 300;
+    width: 100%;
+    height: 100%;
+  }
+  .profile-form-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 15px;
+  }
+  .profile-form-footer-cancel-btn {
+    border: 1px solid #a2a1a833 !important;
+    background-color: transparent !important;
+    height: 50px !important;
+    width: 91px !important;
+    border-radius: 100px !important;
+    color: #fefefe !important;
+    font-family: "Lexend" !important;
+    font-size: 16px !important;
+    font-weight: 300 !important;
+    text-transform: capitalize !important;
+  }
+  .profile-form-footer-save-btn {
+    background-image: linear-gradient(to right, #ff7357, #ff2957) !important;
+    height: 50px;
+    width: 118px;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: "Lexend";
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 20px;
+  }
+  .profile-waller-card {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom-width: 0.7px;
+    border-bottom-style: solid;
+    border-bottom-color: #ffffff33;
+    margin: 0px 15px;
+    padding: 20px 0px;
+  }
+  .profile-waller-card > img {
+    cursor: pointer;
+  }
+  .profile-waller-card > div {
+    display: flex;
+    align-items: flex-start;
+  }
+  .profile-waller-card > div > img {
+    margin-right: 10px;
+  }
+  .profile-waller-card-id {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .profile-waller-card-title {
+    color: #ffffff66;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .profile-waller-card-line {
+    background-image: linear-gradient(to right, #ff7357, #ff2957) !important;
+    height: 1px;
+  }
+  .profile-waller-card-total-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-width: 0.7px;
+    border-bottom-style: solid;
+    border-bottom-color: #ffffff33;
+    padding: 20px 0px;
+    margin: 0px 15px;
+  }
+  .profile-waller-card-total-title {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .profile-waller-card-total-value {
+    color: #ffffff;
+    font-family: "Poppins";
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 5px;
+  }
+  .profile-waller-card-total-title-main {
+    display: flex;
+    align-items: center;
+  }
+  .profile-waller-card-total-title-main > img {
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  .profile-waller-card-history {
+    color: #ffffff66;
+    font-size: 18px;
+    font-weight: 400;
+    border-top-color: #ffffff33;
+    margin: 0px 15px;
+    padding: 30px 0px 15px 0px;
+  }
+  .profile-waller-card-history-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-width: 0.7px;
+    border-top-style: solid;
+    border-top-color: #ffffff33;
+    margin: 0px 15px;
+    padding: 20px 0px;
+  }
+  .profile-waller-card-history-card > p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    flex: 1;
+  }
+  @media only screen and (max-width: 1100px) {
+    .profile-waller-card-id {
+      font-size: 18px;
+    }
+    .profile-waller-card-title {
+      font-size: 16px;
+    }
+  }
+    @media only screen and (max-width: 800px) {
+    .profile-type-list-main > div {
+      height: 74px;
+    }
+    .page-type--list-selected-btn {
+      height: 55px !important;
+      font-size: 16px !important;
+      padding: 0px 30px !important;
+    }
+    .page-type-list-btn {
+      height: 55px !important;
+      font-size: 16px !important;
+      padding: 0px 30px !important;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .profile-header > div {
+      height: 64px;
+    }
+    .page-type-selected-btn {
+      height: 45px !important;
+      font-size: 16px !important;
+      padding: 0px 15px !important;
+    }
+    .page-type-btn {
+      height: 45px !important;
+      font-size: 16px !important;
+      padding: 0px 15px !important;
+    }
+    .profile-type-list-main > div {
+      height: 64px;
+    }
+    .page-type--list-selected-btn {
+      height: 45px !important;
+      font-size: 12px !important;
+      padding: 0px 15px !important;
+      margin: 0px 5px !important;
+    }
+    .page-type-list-btn {
+      height: 45px !important;
+      font-size: 12px !important;
+      padding: 0px 15px !important;
+      margin: 0px 5px !important;
+    }
+    .profile-waller-card-id {
+      font-size: 14px;
+    }
+    .profile-waller-card-title {
+      font-size: 13px;
+    }
+    .profile-waller-card-total-title {
+      font-size: 13px;
+    }
+    .profile-waller-card-total-value {
+      font-size: 16px;
+    }
+  }
+  

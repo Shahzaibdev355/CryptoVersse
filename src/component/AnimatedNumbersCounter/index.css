@@ -1,0 +1,24 @@
+.animated-numbers-countr {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 25px 15px;
+  min-width: 219px;
+}
+.animated-numbers-countr > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.animated-numbers-countr > div > p {
+  color: #fefefe;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.animated-numbers-countr > p {
+  color: #fefefe;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}

@@ -1,0 +1,17 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Atkinson Hyperlegible";
+}
+body {
+  background-color: #121212!important;
+}
+input,
+select {
+  border: none;
+  outline: none;
+  background: none;
+}
+html {
+  scroll-behavior: smooth;
+}

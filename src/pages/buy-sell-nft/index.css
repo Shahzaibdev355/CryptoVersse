@@ -1,0 +1,572 @@
+
+
+.buy-sell-nft-container {
+    background-color: #05020e;
+    min-height: 100vh;
+}
+
+.buy-sell-nft-container-inner {
+    padding: 45px 35px 35px 35px;
+}
+
+
+
+.buy-sell-nft-row{
+    justify-content: center;
+}
+
+.buy-sell-nft-column1{
+    padding: 0px!important;
+    display: flex!important;
+}
+
+
+.buy-sell-nft-column1 img{
+    width: 85%;
+    height: auto;
+    align-self: center;
+    margin: auto;
+
+    border-radius: 20px;
+    border: 1px solid #FF2957;
+    
+
+}
+
+
+
+.buy-sell-nft-column2-grid{
+    padding: 0px!important;
+}
+
+.buy-sell-nft-column2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Image Description */
+.buy-sell-showcase-image {
+    width: 59px;
+    height: 60px;
+	-webkit-clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); /* Diamond Hexagon shape */    transition: 1s;
+}
+
+.nft-buy-sell-name{
+    margin-bottom: 10px;
+    font-size: 34px;
+    font-weight: 700;
+    color: white;
+}
+
+.buy-sell-showcase-text {
+    position: relative;
+    text-align: left;
+    margin-left: 12px;
+}
+
+.buy-sell-showcase-text h6{
+    color: white;
+}
+
+.buy-sell-light-text p{
+    color: white;
+}
+
+.buy-sell-showcase-text small {
+    color: #373a35;
+    font-weight: 600;
+}
+
+
+.buy-sell-nft-checkmark{
+    color: white;
+}
+.buy-sell-nft-checkmark img{
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+
+
+.buy-sell-detail-column{
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 14px;
+    margin-top: 30px;
+}
+
+.buy-sell-detail-heading-row{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.07);
+    color: white;
+}
+
+.buy-sell-detail-heading-row h1{
+    padding-bottom: 10px;
+    font-size: 24px;
+    font-weight: 700;
+   
+}
+
+
+.buy-sell-detail-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+
+
+.buy-sell-detail-contract-icon {
+    font-size: 22px;
+    transform: rotate(-45deg);
+    color: white;
+}
+
+
+
+
+.buy-sell-pricing-column{
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 14px;
+    margin-top: 30px;
+}
+
+.buy-sell-pricing-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.buy-sell-pricing-row p{
+    font-size: 16px;
+}
+
+.buy-sell-pricing-column2{
+    display: flex;
+    flex-direction: column;
+}
+
+.buy-sell-pricing-column2 h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.buy-sell-pricing-column2 p{
+    font-size: 14px!important;
+}
+
+.buy-sell-mint-btn{
+    background-image: linear-gradient(to right, #ff7357, #ff2957) !important;
+    /* height: 58px !important; */
+    border-radius: 100px !important;
+    min-width: 222px !important;
+    color: #ffffff !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    text-decoration: none;
+    border: none;
+    padding: 12px;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+/* Overlay */
+.buy-sell-pop-up-bid-box-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    overflow-y: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /* Center horizontally */
+    padding: 0px;
+}
+
+
+/* Chrome, Safari, and Edge */
+::-webkit-scrollbar {
+    width: 10px;
+    /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1F221C;
+    /* Make the track transparent */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #ff2957;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  
+  
+  /* Firefox */
+  @-moz-document url-prefix() {
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: #ff2957 transparent;
+  
+    }
+  
+    *::-moz-scrollbar-thumb {
+        border-radius: 10px;
+        /* Add border-radius here */
+    }
+  }
+
+
+
+
+
+.buy-sell-pop-up-bid-box {
+
+    margin-top: 3pc;
+    top: 0;
+    background-color: #0A0B09;
+    padding: 20px;
+    width: 440px;
+    border-radius: 10px;
+
+    animation: fadeIn 0.3s ease-out;
+
+    position: relative;
+    margin-bottom: 2pc;
+}
+
+
+
+/* Fade-In Animation */
+@keyframes fadeIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Fade-Out Animation */
+@keyframes fadeOut {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+}
+
+
+/* Disable Body Scroll */
+body.modal-open {
+    overflow: hidden;
+}
+
+
+
+@media screen and (max-width: 468px) {
+
+    .buy-sell-pop-up-bid-box,
+    .buy-sell-transaction-box {
+        width: 100%;
+    }
+}
+
+.buy-sell-pop-up-bid-box-head h4{
+    color: white;
+}
+
+.buy-sell-pop-up-bid-box-head button {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.buy-sell-pop-up-image-bid-box img {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    /* height: 350px; */
+    width: 60%;
+    height: auto;
+    border-radius: 20px !important;
+}
+
+.buy-sell-pop-up-middle-bid-box {
+    background-color: #141612;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+    color: white;
+}
+
+.buy-sell-bid-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.buy-sell-pop-up-middle-box-input {
+    position: relative;
+    margin-bottom: 6px;
+}
+
+.buy-sell-pop-up-middle-bid-box input {
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid transparent;
+    background-color: #1F221C;
+    padding: 12px 12px;
+    color: #fff;
+}
+
+.buy-sell-pop-up-middle-bid-box input:focus {
+    border: 1px solid #ff2957;
+    outline: none;
+    color: #7C876E;
+}
+
+.buy-sell-pop-up-middle-bid-box input::placeholder {
+    color: #575f4e;
+    font-size: 14px;
+}
+
+.buy-sell-pop-up-middle-box-input-placeholder {
+    position: absolute;
+    top: 25%;
+    right: 12px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.buy-sell-pop-up-middle-box-input-placeholder img {
+    vertical-align: middle;
+    width: 18px;
+    position: relative;
+    bottom: 1px;
+    right: 4px;
+}
+
+.buy-sell-pop-up-bid-box-button {
+    background-image: linear-gradient(to right, #ff7357, #ff2957) !important;
+    margin-top: 20px;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-weight: 700;
+    transition: 0.2s ease all;
+}
+
+.buy-sell-pop-up-bid-box-button:hover {
+    transition: 0.2s;
+
+    background-image: linear-gradient(to right, #ff8a6a, #ff476a) !important;
+}
+
+
+
+
+
+
+/* Transaction Success Box */
+
+.buy-sell-pop-up-lab-transaction-box-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+     background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    overflow: hidden; /* Prevent internal scrolling on overlay */
+}
+
+.buy-sell-transaction-box {
+ 
+    margin-top: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0A0B09;
+    padding: 20px;
+    width: 440px !important;
+    border-radius: 10px;
+}
+
+.buy-sell-transaction-box-head h4{
+    color: white;
+}
+
+.buy-sell-transaction-box-head small{
+color: #7C876E;
+}
+
+.buy-sell-transaction-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buy-sell-transaction-box-head>button {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    font-size: 20px;
+    background-color: transparent!important;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+
+.buy-sell-transaction-box-head>button>i {
+    font-size: 20px;
+}
+
+.buy-sell-transaction-middle-box {
+    background-color: #141612;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 15px 0px;
+    color: white;
+}
+
+.buy-sell-transaction-middle-box-go-button{
+    background-color: transparent!important;
+    border: none!important;
+    text-decoration: none!important;
+}
+
+.buy-sell-transaction-middle-box-go-button svg {
+    transform: rotate(-45deg);
+    background-color: transparent!important;
+    color: white;
+    border: none;
+}
+
+.buy-sell-transaction-middle-box-divider {
+    width: 94%;
+    margin: auto;
+    border-bottom: 1px solid #1F221C;
+    margin-bottom: 15px;
+}
+
+.buy-sell-transaction-box-button {
+    /* background-color: #B5FB02; */
+    background-image: linear-gradient(to right, #ff7357, #ff2957) !important;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-weight: 700;
+    transition: 0.2s ease all;
+}
+
+.buy-sell-transaction-box-button:hover {
+    transition: 0.2s;
+    background-image: linear-gradient(to right, #ff8a6a, #ff476a) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 899px) {
+    .buy-sell-nft-container-inner {
+        padding: 15px 15px 0px 15px;
+    }
+}

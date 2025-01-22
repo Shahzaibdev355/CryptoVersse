@@ -1,0 +1,41 @@
+.modal-main {
+  background-image: linear-gradient(to right, #ff7357, #ff2957) !important;
+  border-radius: 7px !important;
+  padding: 1px !important;
+}
+.css-1wrf5oa-MuiPaper-root-MuiDialog-paper {
+  background-color: transparent !important;
+  margin: 0px !important;
+}
+.modal-main-typography {
+  background-color: #09090e !important;
+  border-radius: 7px !important;
+  padding: 15px;
+}
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-style: solid;
+  border-bottom-color: #ffffff33;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.modal-header > p {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+}
+.modal-close-btn {
+  border: 1px solid #3d3e4a !important;
+  background-color: #3d3e4a75 !important;
+  width: 34px !important;
+  height: 34px !important;
+  min-width: 34px !important;
+  min-height: 34px !important;
+  border-radius: 100px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0px !important;
+}
