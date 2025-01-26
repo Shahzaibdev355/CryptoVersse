@@ -21,7 +21,7 @@ import whitepaperBackground from "./cyberpunk-bitcoin-illustration.jpg";
 import whitepaperMarket from "./cyberpunk-city-street-night-with-neon-lights-futuristic-aesthetic.jpg";
 import whitepaperSecurity from "./illustration-rain-futuristic-city.jpg";
 
-import roadMapPipeline from "./roadmap-pipeline.png";
+import roadMapPipeline from "./roadmap-pipeline-new.png";
 import roadmap1 from "./roadmap1.png";
 import roadmap2 from "./roadmap2.png";
 import roadmap3 from "./roadmap3.png";

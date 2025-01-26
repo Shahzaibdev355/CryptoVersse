@@ -68,7 +68,7 @@ const Roadmap = () => {
           <img src={WhitepaperHeaderImg} />
         </div>
 
-        <div className="whitepaper-main-heading">
+        <div className="roadmap-main-heading">
           <p className="whitepaper-header-title">
             Revolutionizing AI and Blockchain:{" "}
             <span>
@@ -131,13 +131,13 @@ const Roadmap = () => {
                   </p>
                 </div>
 
-                <img src={roadmap1} />
-                <span className="roadmap-phase-number">01</span>
+                {/* <img src={roadmap1} /> */}
+                {/* <span className="roadmap-phase-number">01</span> */}
               </div>
 
               <div className="roadmap-phase2">
-                <span className="roadmap-phase-number">02</span>
-                <img src={roadmap2} />
+                {/* <span className="roadmap-phase-number">02</span> */}
+                {/* <img src={roadmap2} /> */}
 
                 <h2>Expansion</h2>
                 {/* <div className="roadmap-phase2-paragraph"> */}
@@ -181,8 +181,8 @@ const Roadmap = () => {
               </div>
 
               <div className="roadmap-phase3">
-                <span className="roadmap-phase-number">03</span>
-                <img src={roadmap3} />
+                {/* <span className="roadmap-phase-number">03</span> */}
+                {/* <img src={roadmap3} /> */}
 
                 <h2>
                   Mobile App <br />
@@ -286,13 +286,13 @@ const Roadmap = () => {
                   </p>
                 </div>
 
-                <img src={roadmap4} />
-                <span className="roadmap-phase-number">04</span>
+                {/* <img src={roadmap4} /> */}
+                {/* <span className="roadmap-phase-number">04</span> */}
               </div>
 
               <div className="roadmap-phase5">
-                <span className="roadmap-phase-number">05</span>
-                <img src={roadmap5} />
+                {/* <span className="roadmap-phase-number">05</span> */}
+                {/* <img src={roadmap5} /> */}
 
                 <h2>
                   Big <br /> Announcement
@@ -316,6 +316,239 @@ const Roadmap = () => {
               </div>
             </div>
           </div>
+
+
+
+
+          {/* ============================Mobile-roadmap============================ */}
+
+          <div className="roadmap-mobile-pipe-row">
+              <div className="roadmap-mobile-phase1">
+              <span className="roadmap-mobile-phase-number">01</span>
+              <img src={roadmap1} />
+                <h2>Launch</h2>
+
+                <div className="roadmap-mobile-phase1-paragraph">
+                  <p className="roadmap-mobile-phase1-para1">
+                    <strong>Action: </strong> 
+                    <span>
+                      <br />
+                    </span>
+                    Launching website 
+                    <span>
+                      <br />
+                    </span>
+                    with NFTs and
+                    <span>
+                      <br />
+                    </span>{" "}
+                    AI integration.
+                  </p>
+                  <p className="roadmap-mobile-phase1-para2">
+                    <strong>Marketing: </strong> 
+                    <span>
+                      <br />
+                    </span>
+                    Initiate campaigns on Twitter
+                    <span>
+                      <br />
+                    </span>
+                    and Telegram to build an 
+                    <span>
+                      <br />
+                    </span>
+                    initial audience and
+                    <span>
+                      <br />
+                    </span>
+                    community engagement.
+                  </p>
+                </div>
+
+              
+              </div>
+
+              <div className="roadmap-mobile-phase2">
+                <span className="roadmap-mobile-phase-number">02</span>
+                <img src={roadmap2} />
+
+                <h2>Expansion</h2>
+                <p className="roadmap-mobile-phase2-para1">
+                  <strong>Action: </strong>
+                  <span>
+                    <br />
+                  </span>
+                  Develop and launch
+                  <span>
+                    <br />
+                  </span>
+                   another web app
+                  <span>
+                    <br />
+                  </span>
+                  (Details to be announced-).
+                </p>
+                <p className="roadmap-mobile-phase2-para2">
+                  <strong>Marketing: </strong>
+                  <span>
+                    <br />
+                  </span>
+                  Continue leverage social media,
+                  <span>
+                    <br />
+                  </span>
+                  YouTube and Medium
+                  <span>
+                    <br />
+                  </span>
+                  for deeper content
+                  <span>
+                    <br />
+                  </span>
+                  engagement.
+                </p>
+                {/* </div> */}
+              </div>
+
+              <div className="roadmap-mobile-phase3">
+                <span className="roadmap-mobile-phase-number">03</span>
+                <img src={roadmap3} />
+
+                <h2>
+                  Mobile App <br />
+                  Development
+                </h2>
+                <div className="roadmap-mobile-phase3-paragraph">
+                  <p className="roadmap-mobile-phase3-para1">
+                    <strong>Action: </strong>
+                    <span>
+                      <br />
+                    </span>
+                    Develop and release
+                    <span>
+                      <br />
+                    </span>
+                     a mobile app for both
+                    <span>
+                      <br />
+                    </span>
+                     iOS and Android.
+                  </p>
+                  <p className="roadmap-mobile-phase3-para2">
+                    <strong>Growth: </strong>
+                    <span>
+                      <br />
+                    </span>
+                    Increase listings 
+                    <span>
+                      <br />
+                    </span>
+                    on more decentralized
+                    <span>
+                      <br />
+                    </span>
+                    exchanges (DEXs).
+                  </p>
+                  <p className="roadmap-mobile-phase3-para3">
+                    <strong>Exchange Submission: </strong>
+                    <span>
+                      <br />
+                    </span>
+                    Submit applications for
+                    <span>
+                      <br />
+                    </span>
+                    listing on major
+                    <span>
+                      <br />
+                    </span>
+                    centralized exchanges
+                    <span>
+                      <br />
+                    </span>
+                    like Coinbase, Kraken,
+                    <span>
+                      <br />
+                    </span>
+                    KuCoin and Gemini.
+                  </p>
+                </div>
+              </div>
+
+              <div className="roadmap-mobile-phase4">
+              <span className="roadmap-mobile-phase-number">04</span>
+              <img src={roadmap4} />
+                <h2>
+                  Strategic <br /> Partnerships
+                </h2>
+
+                <div className="roadmap-mobile-phase4-paragraph">
+                  <p className="roadmap-mobile-phase4-para1">
+                    <strong>Action: </strong>
+                    <span>
+                      <br />
+                    </span>
+                    Forge partnerships 
+                    <span>
+                      <br />
+                    </span>
+                    with other cryptocurrency 
+                    <span>
+                      <br />
+                    </span>
+                    projects, tech companies
+                    <span>
+                      <br />
+                    </span>
+                    and influencers.
+                  </p>
+                  <p className="roadmap-mobile-phase4-para2">
+                    <strong>Enhancements: </strong>
+                    <span>
+                      <br />
+                    </span>
+                    Continuously update the
+                    <span>
+                      <br />
+                    </span>
+                    app with user feedback
+                    <span>
+                      <br />
+                    </span>
+                    and new features.
+                  </p>
+                </div>
+
+               
+              </div>
+
+              <div className="roadmap-mobile-phase5">
+                <span className="roadmap-mobile-phase-number">05</span>
+                <img src={roadmap5} />
+
+                <h2>
+                  Big <br /> Announcement
+                </h2>
+                <p className="roadmap-mobile-phase5-para1">
+                  <strong>Teaser: </strong>
+                  <span>
+                      <br />
+                    </span>
+                  Prepare a massive 
+                  <span>
+                      <br />
+                    </span>
+                  announcement that will 
+                  <span>
+                      <br />
+                    </span>
+                  share the crypto world.
+                </p>
+              </div>
+            </div>
+
+
+
         </Grid>
 
         {/* <Grid item xs={1} sm={1} md={1} lg={1} xl={1} /> */}

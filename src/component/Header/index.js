@@ -126,7 +126,6 @@ const Header = ({ onClick }) => {
                   );
                 })} */}
 
-
                 {/* ======================New code with Link Scroll Feature====================== */}
 
                 {List.map((val, index) => {
@@ -154,8 +153,6 @@ const Header = ({ onClick }) => {
                   );
                 })}
               </div>
-
-              
 
               {user?.walletAddress ? (
                 // <Button
@@ -218,25 +215,33 @@ const Header = ({ onClick }) => {
             </div>
             <ul className="side-menu-ul">
               {List.map((val, index) => {
+                // Skip "myNft" link if the user is not logged in
+                if (!user?.walletAddress && val.path === "myNft") return null;
+
+                // Determine if the link should scroll to a section within the page
+                const isScrollable = ["Features", "FAQ"].includes(val.title);
+
                 return (
                   <li key={index}>
-                    {val.title === "FAQ" ? (
-                      <a
-                        href={val.path}
-                        className={"side-menu-page"}
+                    {isScrollable ? (
+                      // Scrollable links for "Features" and "FAQ"
+                      <ScrollLink
+                        to={val.path}
+                        smooth={true}
+                        duration={500}
+                        className="side-menu-page"
                         style={{ paddingLeft: "10px", textDecoration: "none" }}
-                        onClick={() => {
-                          setIsDrawerOpen(false);
-                        }}
+                        onClick={() => setIsDrawerOpen(false)}
                       >
                         <span className="side-menu-page-title">
                           {val.title}
                         </span>
-                      </a>
+                      </ScrollLink>
                     ) : (
+                      // Navigation links for other pages
                       <Button
                         variant="text"
-                        className={"side-menu-page"}
+                        className="side-menu-page"
                         onClick={() => {
                           setIsDrawerOpen(false);
                           navigate(val.path);
@@ -254,7 +259,7 @@ const Header = ({ onClick }) => {
               <br />
             </ul>
             <div style={{ margin: "15px" }}>
-              <Button
+              {/* <Button
                 variant="contained"
                 className="navbar-wallet-btn"
                 disableRipple={true}
@@ -265,7 +270,42 @@ const Header = ({ onClick }) => {
               >
                 <img src={Wallet} />
                 <p>Connect Wallet</p>
-              </Button>
+              </Button> */}
+
+              {user?.walletAddress ? (
+               
+                <Button
+                  variant="contained"
+                  className="after-g-i-n-wallet-btn"
+                  disableRipple={true}
+                  onClick={onClick}
+                >
+                  <img src={Wallet2} />
+                  {formatToken(user?.walletAddress)}
+
+                  <Link
+                    to="/profile"
+                    className="after-g-i-n-wallet-btn-profile-btn-link"
+                  >
+                    <img
+                      src={profilePlaceHolder}
+                      className="after-g-i-n-wallet-btn-profile-btn"
+                    />
+                  </Link>
+                </Button>
+              ) : (
+                <Button
+                  variant="contained"
+                  className="navbar-wallet-btn"
+                  disableRipple={true}
+                  onClick={onClick}
+                >
+                  <img src={Wallet} />
+                  <p>
+                    {status === "pending" ? "Connecting..." : "Connect Wallet"}
+                  </p>
+                </Button>
+              )}
             </div>
           </div>
         </div>

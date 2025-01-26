@@ -52,6 +52,7 @@
   align-items: center !important;
   justify-content: flex-start !important;
   height: 50px !important;
+  cursor: pointer;
 }
 .side-menu-page-title {
   color: #2d151a !important;
